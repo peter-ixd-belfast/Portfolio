@@ -18,13 +18,11 @@ body{
 
 }
 header{
-    width:80%;
     margin:auto;
     padding: 1rem;
     margin-top: 5rem;
 }
 section{
-    width:80%;
     max-width:1200px;
     margin: auto;
 }
@@ -105,14 +103,15 @@ nav a:hover {
     margin: auto;
 }
 .grid-item{
-    width:80%;
+    
 
 }
 
 #projecttitle{
+    max-width:1200px;
     margin:auto;
     padding-bottom: 2rem;
-    width: 80%;
+   
 }
     /*-- Image Styling--*/
  img{
