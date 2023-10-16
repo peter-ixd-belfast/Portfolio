@@ -111,7 +111,6 @@ nav a:hover {
     /*-- Image Styling--*/
  img{
         display: block;
-        margin-bottom:2rem;
         width:100%;
         padding:0;
     }
