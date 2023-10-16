@@ -17,14 +17,16 @@ body{
     font-style: normal;
 
 }
-section,header{
-    width:80%;
+header{
+    width:90%;
     max-width:1200px;
     margin:auto;
+    padding: 1rem;
 }
-header,section{
-    margin-bottom: 2rem;
-
+section{
+    width:80%;
+    max-width:1200px;
+    margin: auto;
 }
 p{
     padding: 0.5rem 0;
