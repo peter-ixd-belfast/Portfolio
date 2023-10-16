@@ -104,13 +104,13 @@ nav a:hover {
 
 
     /*-- Image Styling--*/
-    img{
+    /*-- img{
         display: block;
         margin-bottom:2rem;
         width:100%;
         padding:0;
     }
-
+--/*
 /*--Styling the Footer--*/
 footer { 
     background:black; 
