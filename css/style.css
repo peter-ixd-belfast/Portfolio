@@ -110,6 +110,7 @@ nav a:hover {
 
 #projecttitle{
     margin:auto;
+    padding-bottom: 2rem;
     width: 80%;
 }
     /*-- Image Styling--*/
