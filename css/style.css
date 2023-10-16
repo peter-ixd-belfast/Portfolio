@@ -107,7 +107,10 @@ nav a:hover {
 
 }
 
-
+#projecttitle{
+    margin:auto;
+    width: 80%;
+}
     /*-- Image Styling--*/
  img{
         display: block;
