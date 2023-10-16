@@ -98,7 +98,8 @@ nav a:hover {
 /*--Style the CSS Grid--*/
 .projects{
     display: grid;
-    grid-template-columns: auto,auto;
+    grid-template-columns: auto,auto,auto,auto;
+    gap: 1rem;
 }
 
 
