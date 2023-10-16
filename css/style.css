@@ -96,13 +96,13 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 /*--Style the CSS Grid--*/
-.projects{
+.grid-container{
     display: grid;
     grid-template-columns: auto,auto,auto,auto;
     grid-template-rows: auto;
     gap: 1rem;
 }
-.projectitem{
+.grid-item{
     width:80%;
 
 }
