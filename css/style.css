@@ -106,6 +106,7 @@ nav a:hover {
     grid-template-rows: auto auto;
     gap: 1rem;
     margin: auto;
+    padding: 4rem,0;
 }
 .grid-item{
     
@@ -115,7 +116,7 @@ nav a:hover {
 #projecttitle{
     max-width:1200px;
     margin:auto;
-    padding-bottom: 2rem;
+    padding: 4rem, 2rem;
    
 }
     /*-- Image Styling--*/
