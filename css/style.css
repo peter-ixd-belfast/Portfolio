@@ -98,6 +98,13 @@ nav a:hover {
     color: teal;
     transition: all 0.3s ease-in-out;
 }
+#logo{
+    display:block;
+    float: left;
+    max-width: 400px;
+    max-height: 400px;
+}
+
 /*--Style the CSS Grid--*/
 .grid-container{
     display: grid;
