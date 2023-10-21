@@ -19,7 +19,7 @@ body{
 }
 header{
     margin:auto;
-    text-align: center;
+    text-align: start;
     padding: 1rem;
     margin-top: 10rem;
     margin-bottom: 5rem;
@@ -147,7 +147,7 @@ footer {
     text-align: center; 
     font-size: 1rem; 
     color: #f7f7f7; 
-    margin: 2rem 0 1rem 0;
+  padding: 2rem 0 1rem 0;
     } 
     
     footer p { 
