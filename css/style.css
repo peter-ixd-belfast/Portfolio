@@ -127,7 +127,7 @@ nav a:hover {
 
 }
 
-#projecttitle{
+.title{
     max-width:1200px;
     margin:auto;
     padding: 2rem 0rem;
