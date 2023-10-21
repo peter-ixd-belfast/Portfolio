@@ -81,12 +81,11 @@ nav{
 }
 
 nav ul{
-    display: inline-block;
     text-align: right;
     letter-spacing: 1px;
 }
 nav ul li {
- 
+    display: inline-block;
     margin: 20px;
     background: none;
 }
