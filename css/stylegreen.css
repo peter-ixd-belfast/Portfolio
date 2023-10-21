@@ -1,0 +1,196 @@
+/*--CSS Reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*--Start Main Styling --*/
+
+body{
+    background: #002e31;
+    color:#f7f7f7;
+    font-family:"neulis-neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+header{
+    margin:auto;
+    text-align: start;
+    padding: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+}
+section{
+    width: 80%;
+    max-width:1200px;
+    margin: auto;
+}
+p{
+    padding: 0.5rem 0;
+    line-height: 1.3;
+}
+
+h1,h2,h3,h4{
+    color:#f7f7f7;  
+}
+
+h1{
+    font-size: 5.61rem;
+}
+
+h2{
+    font-size: 3.157rem;
+}
+h3{
+    font-size: 2.369rem;
+}
+
+h4{
+    font-size: 1.777rem;
+}
+
+/*--Styling Links--*/
+
+a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+a:hover{
+    color: teal;
+    transition: all 0.3s ease-in-out;
+  
+
+}
+
+/*-- Navigation--*/
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color:#0c3d3f;
+    opacity: 85%;
+    padding: 1.5rem 0;
+    font-size: 1rem;
+    max-height:80px;
+}
+#logo{
+    display:inline;
+    padding: 1rem;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+nav ul{
+    margin-top:30px;
+    float:right;
+    text-align: right;
+    letter-spacing: 1px;
+}
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #f7f7f7;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: teal;
+    transition: all 0.3s ease-in-out;
+}
+
+/*--Style the CSS Grid--*/
+.grid-container{
+    display: grid;
+    width: 80%;
+    max-width: 1200px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    margin: auto;
+    padding: 4rem 0;
+}
+.grid-item{
+    
+
+}
+.grid-container2{
+    display: grid;
+    width:80%;
+    max-width:1200px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin:auto;
+    padding: 4rem 0;
+}
+.grid-container3{
+    display: grid;
+    width:80%;
+    max-width:1200px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin:auto;
+    padding: 10rem 0 4rem 0;
+}
+/*-- Styling for Specific Classes and IDs--*/
+.title{
+    max-width:1200px;
+    margin:auto;
+    padding: 2rem 0rem;
+   
+}
+
+#aboutme{
+    padding-bottom: 2rem;
+}
+
+
+    /*-- Image Styling--*/
+ img{
+        display: block;
+        width:80%;
+        max-width: 1200px;
+        max-height:800px;
+        padding:0;
+    }
+    #futrheroimg{
+        padding-top:10rem;
+    }
+
+/*--Styling the Footer--*/
+footer { 
+    background: #0c3d3f;
+    opacity: 85%; 
+    text-align: center; 
+    font-size: 1rem; 
+    color: #f7f7f7; 
+  padding: 2rem 0 1rem 0;
+    } 
+    
+    footer p { 
+    margin-top: 1rem;
+    text-align: center;
+    max-width:80% 
+    } 
+    
+    .footergrid{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        row-gap: 0.75rem;
+    }
+   
+    
