@@ -91,9 +91,8 @@ nav ul{
 }
 nav ul li {
     display: inline;
-    margin: 20px;
     background: none;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 nav a {
