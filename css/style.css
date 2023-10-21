@@ -60,7 +60,7 @@ a{
 a:hover{
     color: teal;
     transition: all 0.3s ease-in-out;
-    border-bottom: 1px dotted;
+  
 
 }
 
