@@ -127,7 +127,7 @@ nav a:hover {
     
 
 }
-/*-- Styling for Specific IDs--*/
+/*-- Styling for Specific Classes and IDs--*/
 .title{
     max-width:1200px;
     margin:auto;
@@ -135,7 +135,7 @@ nav a:hover {
    
 }
 
-.aboutme{
+#aboutme{
     padding-bottom: 1rem;
 }
 
