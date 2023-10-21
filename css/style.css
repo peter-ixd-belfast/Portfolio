@@ -136,6 +136,15 @@ nav a:hover {
     margin:auto;
     padding: 4rem 0;
 }
+.grid-container3{
+    display: grid;
+    width:80%;
+    max-width:1200px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin:auto;
+    padding: 10rem 0 4rem 0;
+}
 /*-- Styling for Specific Classes and IDs--*/
 .title{
     max-width:1200px;
