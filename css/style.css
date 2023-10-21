@@ -127,13 +127,19 @@ nav a:hover {
     
 
 }
-
+/*-- Styling for Specific IDs--*/
 .title{
     max-width:1200px;
     margin:auto;
     padding: 2rem 0rem;
    
 }
+
+.aboutme{
+    padding-bottom: 1rem;
+}
+
+
     /*-- Image Styling--*/
  img{
         display: block;
