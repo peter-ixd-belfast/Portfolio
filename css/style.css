@@ -90,7 +90,7 @@ nav ul{
     letter-spacing: 1px;
 }
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin: 20px;
     background: none;
     vertical-align: middle;
