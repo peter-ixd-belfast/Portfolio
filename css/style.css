@@ -10,8 +10,8 @@
 /*--Start Main Styling --*/
 
 body{
-    background: #111111;
-    color:#f7f7f7;
+    background: #f7f7f7;
+    color:#111111;
     font-family:"neulis-neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -35,7 +35,7 @@ p{
 }
 
 h1,h2,h3,h4{
-    color:#f7f7f7;  
+    color:#111111;  
 }
 
 h1{
@@ -56,7 +56,7 @@ h4{
 /*--Styling Links--*/
 
 a{
-    color: #f7f7f7;
+    color: #111111;
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ a:hover{
     margin: 0;
     width: 100%;
     background-color:#0c3d3f;
-    opacity: 85%;
+    opacity: 50%;
     padding: 1.5rem 0;
     font-size: 1rem;
     max-height:80px;
@@ -103,7 +103,7 @@ nav ul li {
 }
 
 nav a {
-    color: #f7f7f7;
+    color: #111111;
 }
 
 nav a:hover {
@@ -173,7 +173,7 @@ nav a:hover {
 /*--Styling the Footer--*/
 footer { 
     background: #0c3d3f;
-    opacity: 85%; 
+    opacity: 50%; 
     text-align: center; 
     font-size: 1rem; 
     color: #f7f7f7; 
