@@ -163,7 +163,11 @@ nav a:hover {
         display: block;
         width:80%;
         max-width: 1200px;
+        max-height:800px;
         padding:0;
+    }
+    #futrheroimg{
+        padding-top:10rem;
     }
 
 /*--Styling the Footer--*/
