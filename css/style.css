@@ -19,6 +19,7 @@ body{
 }
 header{
     margin:auto;
+    text-align: center;
     padding: 1rem;
     margin-top: 10rem;
     margin-bottom: 5rem;
