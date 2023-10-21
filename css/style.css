@@ -147,7 +147,8 @@ footer {
     } 
     
     footer p { 
-    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
     max-width:80% 
     } 
     
