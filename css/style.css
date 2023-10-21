@@ -88,6 +88,7 @@ nav ul li {
     display: inline-block;
     margin: 20px;
     background: none;
+    vertical-align: middle;
 }
 
 nav a {
