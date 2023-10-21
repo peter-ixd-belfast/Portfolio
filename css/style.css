@@ -129,7 +129,8 @@ nav a:hover {
     /*-- Image Styling--*/
  img{
         display: block;
-        width:100%;
+        width:80%;
+        max-width: 1200px;
         padding:0;
     }
 
