@@ -150,7 +150,8 @@ nav a:hover {
 
 /*--Styling the Footer--*/
 footer { 
-    background: #0c3d3f; 
+    background: #0c3d3f;
+    opacity: 85%; 
     text-align: center; 
     font-size: 1rem; 
     color: #f7f7f7; 
