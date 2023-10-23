@@ -284,5 +284,12 @@ iframe{
     margin:auto;
 }
 
+/*-- Styling for Specific Classes and IDs--*/
+.title{
+    max-width:1200px;
+    margin:auto;
+    padding: 1rem 0rem;
+   
+}
 
 }
