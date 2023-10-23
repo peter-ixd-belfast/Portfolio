@@ -124,7 +124,7 @@ nav a:hover {
     padding: 4rem 0;
 }
 .grid-item1{
-    vertical-align: middle;
+    margin:auto;
 }
 .grid-container2{
     display: grid;
