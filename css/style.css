@@ -180,6 +180,7 @@ padding: 1rem 0;
         width:80%;
         max-width: 1200px;
         padding:0;
+        margin:auto;
     }
     #futrheroimg{
         padding-top:10rem;
@@ -266,7 +267,7 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto;
         gap: 1rem;
-        
+        margin:auto;
         padding: 3rem 0;
     } 
     .grid-item{
