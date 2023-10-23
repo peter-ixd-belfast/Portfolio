@@ -263,10 +263,13 @@ footer {
         display: grid;
         width: 90%;
         max-width: 1200px;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto;
         gap: 1rem;
         margin: auto;
         padding: 3rem 0;
     } 
+    .grid-item2{
+        grid-row: 2;
+    }
 }
