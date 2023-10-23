@@ -269,6 +269,9 @@ footer {
         margin: auto;
         padding: 3rem 0;
     } 
+    .grid-item{
+        margin:auto;
+    }
     .grid-item2{
         grid-row: 2;
     }
