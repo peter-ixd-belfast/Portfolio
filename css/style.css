@@ -293,3 +293,83 @@ iframe{
 }
 
 }
+
+/*Phone Screen Size*/
+@media only screen and (max-width: 480px){
+    body{
+        background: #f7f7f7;
+        color:#111111;
+        font-family:"neulis-neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
+    header{
+        margin:auto;
+        text-align: start;
+        padding: 1rem;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+    }
+    section{
+        width: 95%;
+        max-width:1200px;
+        margin: auto;
+    }
+    p{
+        padding: 0.5rem 0;
+        line-height: 1.3;
+    }
+    
+    h1,h2,h3,h4{
+        color:#111111;  
+    }
+    
+    h1{
+        font-size:3.157rem;
+    }
+    
+    h2{
+        font-size:1.777rem;
+    }
+    h3{
+        font-size:1.333rem;
+    }
+    
+    h4{
+        font-size: 1.333rem;
+    }
+    /* Styling the Grid */
+    .grid-container{
+        display: grid;
+        width: 95%;
+        max-width: 1200px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        gap: 1rem;
+        margin:auto;
+        padding: 2rem 0;
+    } 
+    .grid-item{
+        margin:auto;
+    }
+    .grid-item2{
+        grid-row: 2;
+    }
+iframe{
+    width:80%;
+    margin:auto;
+}
+
+/*-- Styling for Specific Classes and IDs--*/
+.title{
+    max-width:1200px;
+    margin:auto;
+    padding: 1rem 0rem;
+   
+}
+
+
+
+
+}
