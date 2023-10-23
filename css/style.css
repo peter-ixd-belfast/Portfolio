@@ -213,6 +213,7 @@ footer {
     }
    
     
+    /* Tablet Screen Style*/
 @media only screen and (max-width: 768px){
     body{
         background: #f7f7f7;
@@ -230,7 +231,7 @@ footer {
         margin-bottom: 4rem;
     }
     section{
-        width: 80%;
+        width: 90%;
         max-width:1200px;
         margin: auto;
     }
@@ -244,18 +245,28 @@ footer {
     }
     
     h1{
-        font-size: 4.209rem;
+        font-size:4.209rem;
     }
     
     h2{
-        font-size: 3.157rem;
+        font-size:2.369rem;
     }
     h3{
-        font-size: 2.369rem;
+        font-size:1.777rem;
     }
     
     h4{
-        font-size: 1.777rem;
+        font-size: 1.333rem;
     }
-    
+    /* Styling the Grid */
+    .grid-container{
+        display: grid;
+        width: 90%;
+        max-width: 1200px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 1rem;
+        margin: auto;
+        padding: 3rem 0;
+    } 
 }
