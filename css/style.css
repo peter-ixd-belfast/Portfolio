@@ -171,6 +171,9 @@ padding: 1rem 0;
     line-height: 1.5rem;
     font-weight: 700;
 }
+#contact{
+    padding-top:10rem;
+}
     /*-- Image Styling--*/
  img{
         display: block;
