@@ -268,7 +268,7 @@ footer {
         grid-template-rows: auto auto auto auto;
         gap: 1rem;
         margin:auto;
-        padding: 3rem 0;
+        padding: 2rem 0;
     } 
     .grid-item{
         margin:auto;
