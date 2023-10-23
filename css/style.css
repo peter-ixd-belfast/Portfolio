@@ -126,6 +126,14 @@ nav a:hover {
 .grid-item1{
     margin:auto;
 }
+.grid-item4{
+    margin:auto;
+  
+}
+.grid-item5{
+    margin: auto;
+   
+}
 .grid-container2{
     display: grid;
     width:80%;
@@ -273,11 +281,29 @@ footer {
         margin:auto;
         padding: 2rem 0;
     } 
+    .grid-container3{
+        display: grid;
+        width:90%;
+        max-width:1200px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        gap:1rem;
+        margin:auto;
+        padding: 10rem 0 4rem 0;
+    }
     .grid-item{
         margin:auto;
     }
     .grid-item2{
         grid-row: 2;
+    }
+    .grid-item4{
+        margin:auto;
+        grid-row:4;
+    }
+    .grid-item5{
+        margin: auto;
+        grid-row:3;
     }
 iframe{
     width:80%;
