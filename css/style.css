@@ -266,7 +266,7 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto;
         gap: 1rem;
-        margin: auto;
+        
         padding: 3rem 0;
     } 
     .grid-item{
