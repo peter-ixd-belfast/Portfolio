@@ -164,11 +164,13 @@ padding: 1rem 0;
     padding: 2rem 0 1rem 0;
 }
 .list{
-    line-height: 1.5rem;
-    font-weight: 700;
+
     list-style-position: inside;
 }
-
+.listitem{
+    line-height: 1.5rem;
+    font-weight: 700;
+}
     /*-- Image Styling--*/
  img{
         display: block;
