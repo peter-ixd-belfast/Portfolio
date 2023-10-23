@@ -163,6 +163,11 @@ padding: 1rem 0;
 #futrheader{
     padding: 2rem 0 1rem 0;
 }
+.list{
+    line-height: 1.5rem;
+    font-weight: 700;
+    list-style-position: inside;
+}
 
     /*-- Image Styling--*/
  img{
