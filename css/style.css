@@ -403,7 +403,10 @@ nav ul{
 }
 nav ul li {
     display: inline;
-    margin:20px 0 20px 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+    margin-right:10px;
     background: none;
     vertical-align: middle;
 }
