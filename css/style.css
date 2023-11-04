@@ -482,6 +482,9 @@ iframe{
     .grid-item2{
         grid-row: 2;
     }
+    .grid-item6{
+        grid-row: 3;
+    }
 iframe{
     width:80%;
     margin:auto;
