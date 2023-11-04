@@ -119,7 +119,8 @@ nav a:hover {
     max-width: 1000px;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-    gap: 2rem;
+    row-gap: 2rem;
+    column-gap: 3rem;
     margin: auto;
     padding: 4rem 0;
 }
