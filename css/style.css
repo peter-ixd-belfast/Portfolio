@@ -195,10 +195,11 @@ font-weight: 700;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 1rem;
     border-radius: 12px;
     box-shadow: 0 5px #999;
+    float: right;
 
 
 }
