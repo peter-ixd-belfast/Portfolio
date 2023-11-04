@@ -415,6 +415,9 @@ iframe{
 
 
 }
+#aboutme{
+    padding-top: 5rem;
+}
 
 /*Phone Screen Size*/
 @media only screen and (max-width: 480px){
@@ -502,7 +505,9 @@ iframe{
     padding: 1rem 0rem;
    
 }
-
+#aboutme{
+    padding-top: 10rem;
+}
 
 /*Navigation Styling*/
 #logo{
