@@ -512,7 +512,7 @@ iframe{
 /*Navigation Styling*/
 #logo{
     display:inline;
-    padding: 1rem;
+    padding: 0.75rem;
     max-width: 50px;
     max-height: 50px;
 }
