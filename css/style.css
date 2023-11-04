@@ -174,7 +174,6 @@ nav a:hover {
 }
 
 #aboutme{
-    padding-top:10rem;
     padding-bottom: 2rem;
 }
 .futrheader{
@@ -192,9 +191,7 @@ padding: 1rem 0;
     line-height: 1.5rem;
     font-weight: 700;
 }
-#contact{
-    padding-top:10rem;
-}
+
 .bold{
 line-height: 1.5rem;
 font-weight: 700;
