@@ -272,6 +272,9 @@ float:right;
 
 /*--Styling the Footer--*/
 footer { 
+    position: fixed;
+    bottom:0;
+    left:0;
     background: #f7f7f7;
     opacity: 85%; 
     text-align: center; 
