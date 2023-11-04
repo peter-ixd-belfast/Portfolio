@@ -187,7 +187,29 @@ padding: 1rem 0;
 line-height: 1.5rem;
 font-weight: 700;
 }
-    /*-- Image Styling--*/
+
+/*-- Button Styling--*/
+.button{
+    background-color: #002e31;
+    color: #f7f7f7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 12px;
+
+
+}
+.button:hover {background-color: #0c3d3f}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*-- Image Styling--*/
  img{
         display: block;
         width:80%;
