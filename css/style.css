@@ -9,9 +9,8 @@
 
 /*--Start Main Styling --*/
 main{
-    position:relative;
-    min-height:100vh;
-    padding-bottom: 50px;
+  display:grid;
+  grid-template-rows: 1fr auto;
 }
 body{
     background: #f7f7f7;
