@@ -182,6 +182,10 @@ padding: 1rem 0;
 #contact{
     padding-top:10rem;
 }
+.bold{
+line-height: 1.5rem;
+font-weight: 700;
+}
     /*-- Image Styling--*/
  img{
         display: block;
