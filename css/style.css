@@ -243,6 +243,7 @@ font-weight: 700;
 .button2{
     background-color: #002e31;
     color: #f7f7f7;
+    margin: 1rem 0 2rem 0;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
