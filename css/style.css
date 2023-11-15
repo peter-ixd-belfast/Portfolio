@@ -165,6 +165,9 @@ nav a:hover {
     margin:auto;
     padding: 10rem 0 4rem 0;
 }
+.grid-item11{
+    background-color: #dedede;
+}
 /*-- Styling for Specific Classes and IDs--*/
 .title{
     max-width:1000px;
