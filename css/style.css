@@ -168,7 +168,7 @@ nav a:hover {
 .grid-item11{
     background-color: #f4f4f4;
     padding: 0.5rem;
-    box-shadow: 1rem 1rem 2rem 2rem #f4f4f4;
+    box-shadow: 0.5rem 0.5rem 1rem 1rem #f1f1f1;
 }
 /*-- Styling for Specific Classes and IDs--*/
 .title{
