@@ -85,7 +85,7 @@ a:hover{
     left: 0;
     margin: 0;
     width: 100%;
-    background-color:#f7f7f7;
+    background-color:#f4f4f4;
     opacity: 85%;
     padding: 1.5rem 0;
     font-size: 1rem;
@@ -216,7 +216,7 @@ font-weight: 700;
     display: block;
     font-size: 1rem;
     border-radius: 12px;
-    box-shadow: 0 5px #999;
+    box-shadow: 0 5px #f1f1f1;
     float: right;
 
 
@@ -225,7 +225,7 @@ font-weight: 700;
 
 .button:active {
   background-color: #33585a;
-  box-shadow: 0 2px #666;
+  box-shadow: 0 2px #efefef;
   transform: translateY(4px);
 }
 .button1{
@@ -237,7 +237,7 @@ font-weight: 700;
     display: block;
     font-size: 1rem;
     border-radius: 12px;
-    box-shadow: 0 5px #999;
+    box-shadow: 0 5px #f1f1f1;
 
 
 
@@ -246,7 +246,7 @@ font-weight: 700;
 
 .button1:active {
   background-color: #33585a;
-  box-shadow: 0 2px #666;
+  box-shadow: 0 2px #efefef;
   transform: translateY(4px);
 }
 .button2{
@@ -259,7 +259,7 @@ font-weight: 700;
     display: block;
     font-size: 1rem;
     border-radius: 12px;
-    box-shadow: 0 5px #999;
+    box-shadow: 0 5px #f1f1f1;
 float:right;
 
 
@@ -268,7 +268,7 @@ float:right;
 
 .button2:active {
   background-color: #33585a;
-  box-shadow: 0 2px #666;
+  box-shadow: 0 2px #efefef;
   transform: translateY(4px);
 }
 
@@ -292,7 +292,7 @@ float:right;
 footer { 
    grid-area:footer;
     width:100%;
-    background: #f7f7f7;
+    background: #f4f4f4;
     opacity: 85%; 
     text-align: center; 
     font-size: 1rem; 
