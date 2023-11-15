@@ -397,6 +397,10 @@ footer {
         margin: auto;
         grid-row:3;
     }
+    .grid-item6{
+        grid-row: 3;
+        margin:auto;
+    }
 iframe{
     width:80%;
     margin:auto;
@@ -492,6 +496,7 @@ iframe{
     }
     .grid-item6{
         grid-row: 3;
+        margin:auto;
     }
 iframe{
     width:80%;
