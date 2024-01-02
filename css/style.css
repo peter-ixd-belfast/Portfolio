@@ -287,7 +287,10 @@ float:right;
     #fallpalheroimg{
     margin:auto;
     }
-
+    #campus360hero{
+        padding-top:10rem;
+        margin:auto;
+    }
 /*--Styling the Footer--*/
 footer { 
    grid-area:footer;
