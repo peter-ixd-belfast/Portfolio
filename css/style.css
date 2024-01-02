@@ -334,6 +334,10 @@ float:left;
         padding-top:10rem;
         margin:auto;
     }
+    /*Styling the iframes*/
+    .centre{
+        margin:auto;
+    }
 /*--Styling the Footer--*/
 footer { 
    grid-area:footer;
