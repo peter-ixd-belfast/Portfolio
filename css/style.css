@@ -272,6 +272,29 @@ float:right;
   transform: translateY(4px);
 }
 
+.previous{
+    background-color: #002e31;
+    color: #f7f7f7;
+    margin: 1rem 0 2rem 0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 5px #d9d9d9;
+float:left;
+
+
+}
+.previous:hover {background-color: #1a4346}
+
+.previous:active {
+  background-color: #33585a;
+  box-shadow: 0 2px #efefef;
+  transform: translateY(4px);
+}
+
 /*-- Image Styling--*/
  img{
         display: block;
