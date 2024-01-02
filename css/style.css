@@ -336,6 +336,7 @@ float:left;
     }
     /*Styling the iframes*/
     .centre{
+        text-align: center;
         margin:auto;
     }
 /*--Styling the Footer--*/
