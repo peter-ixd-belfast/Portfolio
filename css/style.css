@@ -172,7 +172,7 @@ nav a:hover {
     grid-template-columns: auto;
     grid-template-rows: auto;
     margin:auto;
-    padding: 4rem 0 0 0;
+    padding: 0 0 4rem 0;
 }
 .grid-item11{
     background-color: #f4f4f4;
