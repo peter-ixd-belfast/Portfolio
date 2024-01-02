@@ -1,0 +1,195 @@
+<!--Basic Markup ready for Content and CSS-->
+<!--Tells the browser it is a HTML5 Document-->
+<!DOCTYPE html>
+<!--Sets the Lanugage to English-->
+<html lang="eng-GB">
+    <head>
+        <!--Sets the Character set to European Standard-->
+        <meta charset="utf-8"/>
+        <!--Name of Who Created the Webpage, Also useful for Credits -->
+        <meta name="author" content="Peter McAlernon">
+        <!--Reset for Responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!--Add CSS-->
+   <link href="css/style.css" type="text/css" rel="stylesheet">
+    <!--Add Font Family Neulis Neue-->
+    <link rel="stylesheet" href="https://use.typekit.net/xsa3dbw.css">
+   <!--Add Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/home/favicongreen.png">    
+    <!--Add Page Title-->
+    <title>IoT Control Centre Case Study</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+        <section>
+            
+        <!--Navigation-->
+        <nav class = "navbar">
+            <a href = "index.html"> <img id ="logo" src ="img/home/logodark.png"></a>
+         
+             <ul>
+                <li><a href="index.html#projects">Projects</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="blog.html">Blog</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav>
+        </section> 
+        <img id="fallpalheroimg" src ="img/iot/hero.png" alt="A laptop with a mockup of the IoT Control Centre Dashboard on the screen.">
+        <section>
+            <h2 id="futrheader">Campus360 - Take a Virtual Reality tour of a University campus to see how they are helping the world to meet the UN Sustainable Development Goals</h2>
+    <h4 class="futrheader"> Overview </h4>
+
+<p>A Virtual Reality app designed to help undergraduate students learn about the UN Sustainable Development Goals. You take a tour of a university campus to see all the different projects and initiatives the university is involved in to help meet the seventeen SDGs by 2030.  </p>
+
+<p class="bold">The Problem</p>
+
+<p>The existing learning resources available around the SDGs are written in a very formal style and are difficult to understand. It is also challenging to make the link between the goals and everyday life in the UK as a student.  </p>
+
+<p class="bold">Users and Audience</p>
+
+<p>Undergraduate Students looking to make the link between the SDGs and their daily life. Could also be used by anyone interested in the universities work towards the goals or as an aid for the university to show their SDG projects. </p>
+
+<p class="bold">My Role</p>
+
+<p>All aspects of the design process from research and discovery to final prototype.</p> 
+
+<p class="bold">Requirements</p>
+
+<p>To create an app that can educate either 10 year-olds or undergraduate students about at least five of the United Nations Sustainable Development Goals.</p>
+
+<p class="bold">Project Length</p>
+
+<p>5 Weeks</p>
+
+
+<h4 class="futrheader">Research & Discovery</h4>
+
+<p>I started my research by taking a deep dive into the UN’s Sustainable Development Goals themselves to give myself a full understanding of what they were and what progress had been made towards achieving them from their inception in 2015. I also looked at what educational material was already available and found very little for either of the target audiences we were given in our brief. </p>
+
+<p>I also completed an in-depth competitor analysis of educational apps that were available on the market currently to see what techniques they used to help users learn their content. </p>
+
+<p>From this I was able to develop some initial ideas for what I would create and the mind map below shows the ideas I developed. </p>
+<div class="grid-container2">
+<img src ="img/iot/competitors.jpg" alt="An image showing my competitor analysis">
+</div>
+
+
+<p>One of the ideas I came up with was to create an Augmented Reality app and therefore I researched    AR apps that were currently available, I was surprised by how few there were and how poor some of them were. </p>
+
+<p>I then moved on to creating problem statements and user personas for my project to get into the mindset of my potential users. I looked at the problem from two points of view, the first being that of a student trying to learn about the SDGs and the second an educator trying to teach a class about the goals in an interactive and interesting way. </p>
+
+<p>I used ChatGPT to help me create my user personas asking ChatGPT to create me three different personas for students and educators. Then I aggregated the three personas to create a new individual persona just like if I had done three user interviews. I felt this gave me better results than simply using the first user persona ChatGPT created. </p>
+
+<div class="grid-container2">
+    <img src ="img/iot/persona.png" alt="An image of my user persona">
+    </div>
+<p>I then moved on to develop user stories and from these I was able to set some acceptance criteria for my app.</p>
+<p>My acceptance criteria were:</p>
+<ul class="list">
+<li class="listitem">App must be interactive.</li>
+<li class="listitem">It must show SDGs in a real world context.</li>
+<li class="listitem">It must allow users to gain a deep understanding of the SDGs. </li>
+</ul>
+
+<p>It was at this point I was starting to see issues with creating an Augmented Reality app and after working on a user flow and creating some initial sketches I realised that an Augmented Reality app wasn’t a feasible option.  </p>
+
+<p>I had a discussion with a few people and the idea came up to look at doing a VR app instead. I had always planned on my app being based on the Ulster University Campus so it made sense to create a Virtual Reality tour of the campus showing the different initiatives the university where making in their commitment to the SDGs. </p>
+
+<p>At this point I took a step back and looked at the VR offerings that were available today. I also looked at the Draft XR Figma plug-in that I would use to create my prototype. As I had never used this plug-in before I needed to learn how to use and make the most of it. </p>
+
+<p>I also had to reacquaint myself with using a 360 degree camera, it has been a few years since my previous experience with the Insta360 oneX camera, but a quick tutorial from my lecturer and I was able to photograph some good quality images with it. </p>
+
+<p>I was now able to create a user flow and site map for my VR app, so I could plan my content design and begin sketching my UI.</p>
+<div class="grid-container">
+    
+    <img class="grid-item" src ="img/iot/features.jpg" alt="A list of features I need to include in the IoT Control Centre">
+    <img class="grid-item" src ="img/iot/userflow.jpg" alt="My User flow for the IoT Control Centre">
+
+    
+    </div>
+
+<h4 class="futrheader">Sketches</h4>
+
+<p>Draft XR uses 1920 x 1080 pixel frames in Figma so this is the aspect ratio I started to sketch out my user interface components. As VR was a new medium for me to design for I had taken a look at Apple’s Vision OS guidelines and used their window format as the basis of my design. This helped me get an idea of a layout that I could then create sketches for. </p>
+
+<div class="grid-container2">
+<img class src = "img/iot/sketch.jpg" alt = "An image of my inital sketches for the IoT Control Centre">
+</div>
+
+<h4 class="futrheader">Low-Fidelity Mockups</h4>
+
+<p>I was now able to start creating my low fidelity mockups, for this project I decided to use a new tool called Whimsical, which had been introduced to me during a talk given to our class by a local UX consultancy. As it works very similarly to Figma using a lot of the same shortcuts the learning process was very quick. I found Whimsical to be the perfect lo-fi mockup tool, with a specific mode for creating wireframes and a lot of premade UI components which you can drag and drop into your frame, the whole process was quick, easy and I was really pleased with the results.</p>
+
+<div class="grid-container2">
+<img src = "img/iot/lo-fi.png" alt ="A selection of low fidelity screen mockups for the IoT Control Centre to test ideas">
+</div>
+
+<h4 class="futrheader">Branding</h4>
+<p>When looking at branding for this app I struggled for quite a while, I just couldn’t get a name that felt right. I even tried ChatGPT but its suggestions were even worse than what I had come up with. For most of the project, I was using Sustainable Universities VR Tour as a working title but this simply didn’t feel right. After a lot of thought I decided that Campus360 would be a better brand name and I created a simple wordmark and logo for this.</p>
+
+<div class="grid-container2">
+    <img src="img/iot/styleguide.png" alt="The Style Guide for the IoT Control Centre">
+    </div>
+
+<p>For my colours and typography I used colours from the Ulster University brand colour palette. This was simply because as the virtual reality tour was of an Ulster University campus and one of the possible uses of the app was as an advertisement of all the university’s work towards the SDGs it made sense to keep the app in line with their design guidelines.</p>
+
+<h4 class="futrheader">High-Fidelity Mockups</h4>
+
+<p>As I mentioned previously I was using a Figma plug-in called Draft XR to create the VR prototype. The way this works is I need to design my screens in Figma as if they were normal flat screens (using 1980 x 1080 px frames), then I link my 360 images to Draft XR and Draft XR combines the two into a working VR prototype that can be viewed in the browser or on a VR headset.</p>
+
+<p>Unfortunately, Draft XR is not able to show you a preview of what your UI will look like with the 360 degree background, so you have to design the frame and publish it to the browser. After some experimentation I was able to get used to working this way and created all the screens I needed.</p>
+
+<p>Here are some of my frames from Figma:</p>
+
+<div class="grid-container2">
+    <img src="img/iot/hi-fi.png" alt="The Style Guide for the IoT Control Centre">
+    </div>
+
+<h4 class="futrheader">Prototype</h4>
+
+<p>Prototyping in Draft XR is relatively easy, you link up your interactive elements in Figma and Draft XR translates those links so they work when you view your prototype in the browser. Draft XR doesn’t support all of Figma’s prototyping tools, so you are limited to basic prototype interactions and transitions but it is still very impressive to be able to create a VR prototype from 360 images and a Figma design file. </p>
+
+<p>Here is a screenshot of my prototype in Figma</p>
+
+<div class="grid-container2">
+    <img src="img/iot/prototype.png" alt="The Style Guide for the IoT Control Centre">
+    </div>
+
+    <p>And you can view the working Prototype Here INSERT LINK</p>
+
+<h4 class="futrheader">Outcomes</h4>
+
+<p>What I was finally left with was a working VR prototype that I could view in the browser or on a VR headset. This project makes up 30% of my IXD 301 module that I will be handing in for marking in January 2024 and I hope to secure a good mark for my work.</p>
+
+<h4 class="futrheader">Lessons</h4>
+
+<p>Like all projects I have a lot of lessons I can take away from this project, firstly I can now develop a basic VR prototype using Figma and Draft XR. With Apple’s Vision Pro being released soon I am hoping that this will be a skill I can utilise in future projects. </p>
+
+<p>However, the biggest lesson I learnt in this project is that when an idea isn’t working no matter how good an idea it might seem, you need to leave it and move onto another idea. It was a struggle to leave the Augmented Reality idea behind, on paper it sounded great but the reality was with no way of creating a working prototype I had no way of illustrating my vision to others. It was hard leaving all the research and discovery work on AR behind but having solid user and background research complete I only had to swap my focus from AR to VR. In the end once I saw the prototyping possibilities of Draft XR I knew it was the right decision. While I take away the important lesson that not every idea will be viable, I also take away a lot of confidence from being able to swap mid-project and still deliver a working prototype I am proud of.</p>
+
+
+
+    <section><a href ="IoTControlCentre.html"> <button class="button2">Previous Case Study </button></a></section>
+    <section><a href ="FallPalcasestudy.html"> <button class="button2">Next Case Study </button></a></section>
+</p>
+</section>
+</div>
+</main>
+<footer>
+    <section class ="footergrid">
+    <h4 class ="footergriditem">Get in touch</h4>
+    <h4 class ="footergriditem">Find me on</h4>
+    <a class ="footergriditem" href = "mailto:hello@pmcadesign.co.uk">hello@pmcadesign.co.uk</a>
+
+
+
+    <a class ="footergriditem" href ="https://www.linkedin.com/in/peter-mcalernon-8b5644207/" target="_blank">LinkedIn</a>
+    <div class ="footergriditem"></div>
+    <a class ="footergriditem" href = "https://www.instagram.com/pmca_design/" target="_blank">Instagram</a>
+</section>
+</footer>
+    </body>
+  
+    </html>
