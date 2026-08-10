@@ -31,9 +31,9 @@ body{
 }
 
 header{
-    margin:auto;
+    margin:2rem;
     text-align: start;
-    padding: 1rem;
+    padding: 0rem;
     margin-top: 10rem;
     margin-bottom: 6rem;
 }
