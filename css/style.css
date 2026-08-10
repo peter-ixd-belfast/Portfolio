@@ -32,10 +32,10 @@ body{
 
 header{
     margin:2rem;
-    text-align: start;
+    text-align: left;
     padding: 0rem;
     margin-top: 10rem;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
 section{
     width: 80%;
