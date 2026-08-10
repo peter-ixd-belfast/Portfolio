@@ -11,7 +11,7 @@
         <!--Reset for Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
             <!--Add CSS-->
-   <link href="css/style.css" type="text/css" rel="stylesheet">
+   <link href="css/case-study.css" type="text/css" rel="stylesheet">
     <!--Add Fonts Armino and IBM Plex Sans-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
