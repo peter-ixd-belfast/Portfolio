@@ -21,3 +21,189 @@
     <!--Add Page Title-->
     <title>same different - Project Case Study</title>
     </head>
+<body>
+        <main>
+            <div class="container">
+        <section>
+             <!--Navigation-->
+        <nav class = "navbar">
+           <a href = "index.html"> <img id ="logo" src ="img/home/logodark.png"></a>
+        <!--
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+             <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            -->
+        </nav>
+        </section> 
+        <section>
+            ## Overview
+
+same different is a brand, service and product offering aimed at enabling adults to explore their potential neurodiversity without the need for GP appointments or expensive private assessments. It is designed to reduce the friction and challenges many adults find within the current pathway. This will enable waiting times for diagnosis to be significantly reduced and user satisfaction with the process to increase. 
+
+## The Problem
+
+It is thought that over 500,000 adults in the UK are autistic but are unaware or waiting for an assessment. Waiting lists for assessments have reached 5 years in some parts of Northern Ireland with the average wait being 18 months. With NICE guidelines stating assessments should be carried out within 13 weeks of referral, the size of the issue is stark.
+
+I discovered that many issues lie in the current adult autism diagnosis pathway, the main one being that with no clear direction, people are left to turn to their local GP. With GPs overworked and without the specialist training required to understand the nuance of how autism presents in adults, for many, this is where their journey to discover if they are autistic ends.
+
+For those who can get a referral to the local health trust’s adult autism team, a long wait and a series of paper-based questionnaires await before they can sit down with a specialist and get some answers. These specialists are again struggling with a lack of resources, leaving them doing their best while the waiting list grows.
+
+Access to support requires a confirmed diagnosis. This backlog of people waiting for an assessment cannot access any support that is available. This support can allow autistic people to understand themselves, maximise their strengths and minimise the impact of any weaknesses they may have.
+The impacts of these waiting lists do not end with the individual, as many will need to seek treatment for additional health conditions, increasing their waiting lists, and without a confirmed autism diagnosis, they cannot benefit from any of the adjustments made to make these services easier to navigate as a neurodiverse person.
+
+## Users and Audience
+
+Target users are adults over 18 years of age who want to discover whether they are neurodiverse or not.
+
+## Requirements
+
+A service design blueprint for a start-to-finish process allowing users to progress from questioning their neurodiversity to a diagnostic assessment with a specialist.  
+
+An interactive prototype of a digital product that enables a user to complete the majority of the pathway in a way that fits their individual needs. 
+
+A brand that users can connect with and feel comfortable using while on their journey of discovery into their neurodiversity. 
+
+## Process
+
+I was fortunate that I started this project with a significant amount of knowledge in this area, due to my own personal experience of the adult autism diagnosis pathway; this, along with conversations I have had with professionals and fellow autistic people over the years has allowed me to build a bank of knowledge around the issues within the current pathway and a strong desire to design a better version, aligned with people’s needs. 
+
+However, I didn’t want to skip the key aspects of the design process, and I knew that I needed to verify and validate my knowledge and ideas to allow me to create the best possible outcome. For this reason, I still implemented my preferred design process of discovery, research, ideation and iteration and made a conscious effort not to allow any personal bias to influence the final results. 
+
+## Research & Discovery
+
+As I have mentioned, I needed to validate my own knowledge of the adult autism diagnosis process as well as discover other people’s experiences of it. To achieve this, I created two surveys, one for adults who had completed the current pathway and one for professionals who support neurodiverse adults. This would allow me to get perspectives from both sides of the experience and help me to decide how to tackle the issues within the process. 
+
+> **Key Insight - Currently, there is no clear pathway for adults seeking a neurodiversity diagnosis; this leads to many people not knowing how to access the service.**
+> 
+
+Another purpose of these surveys was to discover people’s opinions on using AI within the diagnostic process. I had an idea that AI could offer several opportunities to streamline the diagnostic process; however, this would not be possible if users were not comfortable with AI being used at all. I therefore used the surveys to gather opinions on bothe how people felt generally about AI use and what safeguards they required to feel comfortable with its use in a diagnostic process. 
+
+> **Key Insight - Survey participants were overwhelmingly positive about the potential of using AI within the diagnostic process, as long as its use was transparent and its purpose clear.**
+> 
+
+Another key aspect of the research and discovery phase of the project was reaching out and talking to experts in Autism Diagnosis, and while it was challenging to get time with such busy people and I had many disappointments with regards to people being unavailable, I was able to speak to two professionals, a support worker for autistic adults and the founder of a software company who had recently launched a tool to help autism diagnostic practitioners compile reports using AI. 
+
+These discussions provided significant insights and validated that my ideas would be valuable and help to improve the experience of diagnosis for many people. 
+
+> **Key Insight - While AI has a place within the diagnostic process, people were not comfortable with it making a final diagnostic decision; therefore, autism diagnostic specialists would still be a key part of the overall process.**
+> 
+
+## Service Design
+
+As my research and discovery made clear, a successful adult autism diagnostic service would need to combine technology (including AI) and human expertise. To be able to design the service and show where these two aspects interacted, I decided a Service Design Blueprint would be a key artefact.  
+
+I started by creating a blueprint of the current process to allow me to assess where the main pain points lay and what opportunities for improvement were available. 
+
+> **Key Insight - Significant parts of the current process are hidden from the user, leaving them with no idea at what stage they are, or how long the process may take.**
+> 
+
+From this, I discovered that the vast majority of the pain points happened before a person sat down with a diagnostic specialist for an autism assessment. None of my research participants or the professionals I spoke to raised any concerns with this part of the process; the work of the local health trust adult autism teams is exemplary, especially considering the lack of resources they have. For this reason, I wanted to impact their work as little as possible.
+
+> **Key Decision - I need to integrate my changes to the adult autism diagnostic process within the current overarching framework.**
+> 
+
+This decision allowed me to concentrate on the initial stages of the process and develop a service design that utilised a web app to allow users to complete scientifically designed and verified questionnaires. AI could then score these questionnaires and calculate a person’s likelihood of autism. People who required specialist assessment could then be referred directly to local health trust adult autism teams for assessment with a specialist.
+
+> **Key Decision - To keep the user informed and updated at each point of the process, offering clear information on what stage they were at and what would happen next.**
+> 
+
+## Storyboards
+
+While I was very familiar with the adult autism diagnostic process, I was aware that for many people, they would never have experienced or be aware of how it worked. While they could look at the service design blueprint, I wanted to lower the barrier to understanding the service I was proposing and why some of my key decisions were so important. I also wanted to bring a more human aspect to the project to avoid users getting lost in the artefacts, which, while familiar to UX/Product/Service designers, are not so to the general public, including people who would be key stakeholders to present this project to. 
+
+> **Key Decision - Create a basic storyboard to illustrate the benefits of my service design and make it easier for people to understand.**
+> 
+
+## Brand Design
+
+While I envisaged my service being run by the NHS, it could also be used by private healthcare providers; I therefore decided to design a brand for the service and product.  
+
+I developed brand values, a mission and a vision to define the brand’s purpose and make it accountable for delivering its stated aims.
+
+> **Brand Vision - To innovate using the latest technology alongside human expertise to offer timely diagnosis and support for Autistic adults.**
+> 
+
+Designing a brand for any service for people with neurodiversity and autism in particular raises some major challenges. This is because several symbols that many people link to autism are unpopular with autistic people themselves, and many people are uncomfortable with the semantics they convey.
+
+> **Key Decision - Create a brand that does not rely on common symbols associated with autism.**
+> 
+
+One aspect of being autistic that has been clear to me is that while people may share a diagnosis, that does not impact their unique character and experience. For this reason, I wanted my brand to represent that individuality.  This led me to explore dynamic branding, where aspects of the brand can change for each user. I decided that each user should have an individual brand logo, which was generated algorithmically when they signed up. This allowed me to state rules for the logo so they remained within the overall brand, but were still unique to each user.
+
+> **Key Decision - Create a dynamic brand giving users a unique logo to represent their journey with the brand.**
+> 
+
+Another key aspect of my brand was the brand name, same different; this was designed to represent the juxtaposition of how we are all the same as humans but also different with unique characters and experiences. I also decided not to capitalise either word, as I didn’t want either to seem more important than the other.
+
+## Product Design
+
+Completing my service design blueprint showed how much of my proposed adult autism diagnosis pathway was going to utilise a new mobile app. Therefore, I needed to design this app as part of the overall project. The purpose of the app was relatively straightforward: to allow users to complete a series of scientifically verified questionnaires in their own time. After each questionnaire, a user will receive an AI-generated summary of the results and what they mean in terms of how likely it is they are autistic. Once a series of questionnaires have been completed, users will receive a final likelihood of autism, and if it is high enough, they will be referred for a specialist autism assessment with their local adult autism team.  
+
+My initial lo-fi designs followed this simple formula, and I completed a round of unmoderated user testing to get some initial feedback. This uncovered some issues, in that while the app was functional, it took a long time to get any value from it. This led me to redesign the onboarding process, before users had to make an account and fill in personal details before tackling thier first questionnaire, I flipped this around and allowed them to take an initial screener questionnaire before creating an account. This meant thaty for users where them being autistic was highly unlikely they didn’t need to make an account or waste any of their time completing taks that would not benefit them.
+
+> **Key Decision - Allow users to complete a screener questionnaire before creating an account to reduce time to value.**
+> 
+
+Another issue that was identified was the fact that the app was very clinical in its approach, which concentrates more on a person’s deficits without acknowledging areas where they excel. This can lead to the process feeling quite negative, and this could lead to users losing motavation and not completing the journey. To combat this, I redesigned the AI-generated summaries after each questionnaire to contain both strengths and weaknesses. I also added tips to maximise these strengths and manage the weaknesses, which gave users added value and meant they did not have to wait for a formal diagnosis to understand themselves better. 
+
+> **Key Decision - Include the strengths that the person’s questionnaire answers indicate, not just the weaknesses.**
+> 
+
+The final key aspect of my product was allowing users to see the complete process and understand where they were within it and what the next steps are. To achieve this, the main app home screen was set up as a timeline, showing clearly what step of the process the user was on, the steps they had completed and what steps they still had left. This cured one of the biggest pain points I discovered in my research, where people were unclear on the process and where they were within it. 
+
+> **Key Decision - Centre the app experience around the overall process so that users always know what the process looks like and where they sit within it.**
+> 
+
+I could now complete further user testing with my interactive prototype; this time, the tests were moderated both in-person and remotely. They validated my overall design decisions and also allowed me to discover and subsequently correct some bugs within the prototype. This significantly improved the final outcome. 
+
+> **Key Decision - Completing multiple user tests allowed me to validate and fix minor bugs within the app.**
+> 
+
+## Outcome
+
+The final outcome of this project included a Service Design Blueprint, illustrating how a new adult autism diagnosis pathway utilising a smartphone app would work, a brand guidelines document, outlining all the brand artefacts and an interactive prototype of the smartphone app described in the service design blueprint. 
+
+## Strengths
+
+A key strength of this project is how it allows people to take control of their own journey, as they investigate whether they are autistic. Today, the process relies on other people, GPs, specialists, etc., and the person is never in control of what is going on; letters come through the post telling you what you need to do, often with a time limit, or when and where your appointment is. It is a very disjointed process, often with months of nothing happening followed by a burst of intense activity, followed by more inactivity. This makes the process so much more difficult than it needs to be. same different will change this completely, allowing people to complete the journey in a way that works for them. They will know where they are in the process and what they need to do to reach the next stage. This knowledge and feeling of being in control will make a huge difference to people.
+
+It also enables the NHS-provided service to run much more efficiently, firstly there will now be no need for people to have to go and speak to their GP, just to find out if an assessment would be useful. This will free up appointments as well as relieve the pressure on GPs to make decisions on people’s potential for being autistic that they have not had training to do. By digitising the standardised surveys, there will now not be the need for autism specialists to review and score the surveys manually, saving time and allowing them to carry out more valuable work. As same different’s AI model will be able to provide a specific clinician report of the questionnaires and results each individual person has completed, the time to prepare for each formal assessment will be reduced significantly, which may allow specialists the time to complete more assessments.
+
+A small change, but one that makes a big difference, is the ability to book and manage an assessment appointment through the app. This will enable people to choose the date, time and appointment location that suits them. People who are neurodivergent often struggle with a range of challenges, and being able to select the best option for them will relieve a lot of stress and anxiety. Managing an appointment via the app will also help, as making phone calls causes many people stress, so removing the need for this will help make the process easier.
+
+## Weaknesses
+
+The core weakness of the project is that it doesn’t tackle all the issues present in the current adult autism pathway. In fact, it uses a significant part of the existing system, which is overstretched and underfunded. There is no immediate solution to this beyond politicians supporting adult autism services with more funding, allowing more autism specialists to be employed.
+
+Moving forward, the time savings offered to autism specialists could reduce the current cost of a formal assessment, allowing more people to utilise private healthcare providers. It could also allow more people to be assessed via the NHS for less funding, but this is not guaranteed.
+
+## Lessons Learned
+
+This project taught me several lessons; the key one was how important user testing is. Going into the first round of testing, I was convinced the app I had designed was ideal; however, while functional, many areas needed significant improvement to make the app something people wanted to use.  
+
+I also learned that no matter how deeply you know the area you are working in (in this case, autism diagnosis) you still need to complete in-depth user research. My user research for this project uncovered additional pain points I was not aware of and allowed me to see the problem from several new perspectives, all of which contributed to a better final design. 
+
+For more in-depth information on this project, check out my project blog (Link)
+        </section>
+</div>
+</main>
+<footer>
+    <section class ="footergrid">
+    <h4 class ="footergriditem">Get in touch</h4>
+    <h4 class ="footergriditem">Find me on</h4>
+<a class ="footergriditem" href = "mailto:hello@pmcadesign.co.uk">hello@pmcadesign.co.uk</a>
+
+
+
+    <a class ="footergriditem" href ="https://www.linkedin.com/in/peter-mcalernon-8b5644207/" target="_blank">LinkedIn</a>
+    <div class ="footergriditem"></div>
+    <a class ="footergriditem" href = "https://www.instagram.com/pmca_design/" target="_blank">Instagram</a>
+</section>
+</footer>
+            </body>
+          
+            </html>
+        
