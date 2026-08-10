@@ -39,61 +39,60 @@
         </nav>
         </section> 
         <section>
-            ## Overview
+            <h3>Overview</h3> 
 
-same different is a brand, service and product offering aimed at enabling adults to explore their potential neurodiversity without the need for GP appointments or expensive private assessments. It is designed to reduce the friction and challenges many adults find within the current pathway. This will enable waiting times for diagnosis to be significantly reduced and user satisfaction with the process to increase. 
+<p>same different is a brand, service and product offering aimed at enabling adults to explore their potential neurodiversity without the need for GP appointments or expensive private assessments. It is designed to reduce the friction and challenges many adults find within the current pathway. This will enable waiting times for diagnosis to be significantly reduced and user satisfaction with the process to increase.</p>
 
-## The Problem
+<h3>The Problem</h3>
 
-It is thought that over 500,000 adults in the UK are autistic but are unaware or waiting for an assessment. Waiting lists for assessments have reached 5 years in some parts of Northern Ireland with the average wait being 18 months. With NICE guidelines stating assessments should be carried out within 13 weeks of referral, the size of the issue is stark.
+<p>It is thought that over 500,000 adults in the UK are autistic but are unaware or waiting for an assessment. Waiting lists for assessments have reached 5 years in some parts of Northern Ireland with the average wait being 18 months. With NICE guidelines stating assessments should be carried out within 13 weeks of referral, the size of the issue is stark.</p>
 
-I discovered that many issues lie in the current adult autism diagnosis pathway, the main one being that with no clear direction, people are left to turn to their local GP. With GPs overworked and without the specialist training required to understand the nuance of how autism presents in adults, for many, this is where their journey to discover if they are autistic ends.
+<p>I discovered that many issues lie in the current adult autism diagnosis pathway, the main one being that with no clear direction, people are left to turn to their local GP. With GPs overworked and without the specialist training required to understand the nuance of how autism presents in adults, for many, this is where their journey to discover if they are autistic ends.</p>
 
-For those who can get a referral to the local health trust’s adult autism team, a long wait and a series of paper-based questionnaires await before they can sit down with a specialist and get some answers. These specialists are again struggling with a lack of resources, leaving them doing their best while the waiting list grows.
+<p>For those who can get a referral to the local health trust’s adult autism team, a long wait and a series of paper-based questionnaires await before they can sit down with a specialist and get some answers. These specialists are again struggling with a lack of resources, leaving them doing their best while the waiting list grows.</p>
 
-Access to support requires a confirmed diagnosis. This backlog of people waiting for an assessment cannot access any support that is available. This support can allow autistic people to understand themselves, maximise their strengths and minimise the impact of any weaknesses they may have.
-The impacts of these waiting lists do not end with the individual, as many will need to seek treatment for additional health conditions, increasing their waiting lists, and without a confirmed autism diagnosis, they cannot benefit from any of the adjustments made to make these services easier to navigate as a neurodiverse person.
+<p>Access to support requires a confirmed diagnosis. This backlog of people waiting for an assessment cannot access any support that is available. This support can allow autistic people to understand themselves, maximise their strengths and minimise the impact of any weaknesses they may have.</p>
 
-## Users and Audience
+<p>The impacts of these waiting lists do not end with the individual, as many will need to seek treatment for additional health conditions, increasing their waiting lists, and without a confirmed autism diagnosis, they cannot benefit from any of the adjustments made to make these services easier to navigate as a neurodiverse person.</p>
 
-Target users are adults over 18 years of age who want to discover whether they are neurodiverse or not.
+<h3>Users and Audience</h3>>
 
-## Requirements
+<p>Adults (over 18 years of age) who want to discover whether they are neurodiverse or not.</p>
 
-A service design blueprint for a start-to-finish process allowing users to progress from questioning their neurodiversity to a diagnostic assessment with a specialist.  
+<h3>Requirements</h3>>
 
-An interactive prototype of a digital product that enables a user to complete the majority of the pathway in a way that fits their individual needs. 
+<p>A service design blueprint for a start-to-finish process allowing users to progress from questioning their neurodiversity to a diagnostic assessment with a specialist.</p>  
 
-A brand that users can connect with and feel comfortable using while on their journey of discovery into their neurodiversity. 
+<p>An interactive prototype of a digital product that enables a user to complete the majority of the pathway in a way that fits their individual needs.</p> 
 
-## Process
+<p>A brand that users can connect with and feel comfortable using while on their journey of discovery into their neurodiversity. </p>
 
-I was fortunate that I started this project with a significant amount of knowledge in this area, due to my own personal experience of the adult autism diagnosis pathway; this, along with conversations I have had with professionals and fellow autistic people over the years has allowed me to build a bank of knowledge around the issues within the current pathway and a strong desire to design a better version, aligned with people’s needs. 
+<h3>Process</h3>>
 
-However, I didn’t want to skip the key aspects of the design process, and I knew that I needed to verify and validate my knowledge and ideas to allow me to create the best possible outcome. For this reason, I still implemented my preferred design process of discovery, research, ideation and iteration and made a conscious effort not to allow any personal bias to influence the final results. 
+<p>I was fortunate that I started this project with a significant amount of knowledge in this area, due to my own personal experience of the adult autism diagnosis pathway; this, along with conversations I have had with professionals and fellow autistic people over the years has allowed me to build a bank of knowledge around the issues within the current pathway and a strong desire to design a better version, aligned with people’s needs.</p> 
 
-## Research & Discovery
+<p>However, I didn’t want to skip the key aspects of the design process, and I knew that I needed to verify and validate my knowledge and ideas to allow me to create the best possible outcome. For this reason, I still implemented my preferred design process of discovery, research, ideation and iteration and made a conscious effort not to allow any personal bias to influence the final results.</p> 
 
-As I have mentioned, I needed to validate my own knowledge of the adult autism diagnosis process as well as discover other people’s experiences of it. To achieve this, I created two surveys, one for adults who had completed the current pathway and one for professionals who support neurodiverse adults. This would allow me to get perspectives from both sides of the experience and help me to decide how to tackle the issues within the process. 
+<h3>Research & Discovery</h3>>
 
-> **Key Insight - Currently, there is no clear pathway for adults seeking a neurodiversity diagnosis; this leads to many people not knowing how to access the service.**
-> 
+As I have mentioned, I needed to validate my own knowledge of the adult autism diagnosis process as well as discover other people’s experiences of it. To achieve this, I created two surveys, one for adults who had completed the current pathway and one for professionals who support neurodiverse adults. This would allow me to get perspectives from both sides of the experience and help me to decide how to tackle the issues within the process.</p> 
 
-Another purpose of these surveys was to discover people’s opinions on using AI within the diagnostic process. I had an idea that AI could offer several opportunities to streamline the diagnostic process; however, this would not be possible if users were not comfortable with AI being used at all. I therefore used the surveys to gather opinions on bothe how people felt generally about AI use and what safeguards they required to feel comfortable with its use in a diagnostic process. 
+<div class="callout"> <h4>Key Insight</h4><br> <p>Currently, there is no clear pathway for adults seeking a neurodiversity diagnosis; this leads to many people not knowing how to access the service.</p></div>
 
-> **Key Insight - Survey participants were overwhelmingly positive about the potential of using AI within the diagnostic process, as long as its use was transparent and its purpose clear.**
-> 
+<p>Another purpose of these surveys was to discover people’s opinions on using AI within the diagnostic process. I had an idea that AI could offer several opportunities to streamline the diagnostic process; however, this would not be possible if users were not comfortable with AI being used at all. I therefore used the surveys to gather opinions on bothe how people felt generally about AI use and what safeguards they required to feel comfortable with its use in a diagnostic process.</p> 
 
-Another key aspect of the research and discovery phase of the project was reaching out and talking to experts in Autism Diagnosis, and while it was challenging to get time with such busy people and I had many disappointments with regards to people being unavailable, I was able to speak to two professionals, a support worker for autistic adults and the founder of a software company who had recently launched a tool to help autism diagnostic practitioners compile reports using AI. 
+<div class="callout"><h4>Key Insight</h4><br> <p>Survey participants were overwhelmingly positive about the potential of using AI within the diagnostic process, as long as its use was transparent and its purpose clear.</p></div>
 
-These discussions provided significant insights and validated that my ideas would be valuable and help to improve the experience of diagnosis for many people. 
+<p>Another key aspect of the research and discovery phase of the project was reaching out and talking to experts in Autism Diagnosis, and while it was challenging to get time with such busy people and I had many disappointments with regards to people being unavailable, I was able to speak to two professionals, a support worker for autistic adults and the founder of a software company who had recently launched a tool to help autism diagnostic practitioners compile reports using AI.</p> 
+
+<p>These discussions provided significant insights and validated that my ideas would be valuable and help to improve the experience of diagnosis for many people. 
 
 > **Key Insight - While AI has a place within the diagnostic process, people were not comfortable with it making a final diagnostic decision; therefore, autism diagnostic specialists would still be a key part of the overall process.**
 > 
 
 ## Service Design
 
-As my research and discovery made clear, a successful adult autism diagnostic service would need to combine technology (including AI) and human expertise. To be able to design the service and show where these two aspects interacted, I decided a Service Design Blueprint would be a key artefact.  
+As my research and discovery made clear, a successful adult autism diagnostic service would need to combine technology (including AI) and human expertise. To be able to design the service and show where these two aspects interacted, I decided a Service Design Blueprint would be a key artefact.</p>  
 
 I started by creating a blueprint of the current process to allow me to assess where the main pain points lay and what opportunities for improvement were available. 
 
