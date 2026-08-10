@@ -234,14 +234,14 @@ font-weight: 700;
     background-color: #002e31;
     color: #f7f7f7;
     padding: 15px 32px;
-    font-family:"neulis-neue", sans-serif;
+    font-family:"IBM Plex Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     display: block;
     font-size: 1rem;
     border-radius: 12px;
     box-shadow: 0 5px #d9d9d9;
-    float: right;
+    float: left;
 
 
 }
