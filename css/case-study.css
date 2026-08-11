@@ -72,6 +72,28 @@ h4{
     font-weight: 400;
     font-style: normal; 
 }
+/*Table Styling*/
+/* Table container styling */
+.styled-table {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cell styling */
+.styled-table td {
+  border: 1px solid #dddddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+/* Zebra striping for alternating rows */
+.styled-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
 #logo{
     display:inline;
     padding: 1rem;
