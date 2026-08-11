@@ -99,6 +99,24 @@ h4{
   background-color: #f9f9f9;
 }
 
+/* List container styling */
+.styled-list {
+  list-style-type: none; /* Removes the default bullet points */
+  padding: 0;
+  margin: 20px 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  max-width: 1000px;
+}
+
+/* Individual list item styling */
+.styled-list li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 4px;
+  border-left: 5px solid #009879; /* Adds a colored accent line on the left */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
 #logo{
     display:inline;
     padding: 1rem;
