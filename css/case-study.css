@@ -56,12 +56,15 @@ h4{
     font-size: 1.777rem;
 }
 .callout{
-    background-color: #b9b9b9;
+    width: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     padding: 2rem;
     margin-top:1rem;
     margin-bottom:1rem;
-    border-radius:8px;
-    box-shadow: 0.5rem 0.5rem 1rem 1rem #f1f1f1;
     font-family: "Urbanist", sans-serif;
     font-size: 1.777rem;
     font-optical-sizing: auto;
