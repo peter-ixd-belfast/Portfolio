@@ -176,7 +176,7 @@ nav a:hover {
     row-gap: 2rem;
     column-gap: 3rem;
     margin: 0rem;
-    padding: 4rem 0;
+    padding-top: 4rem;
 }
 
 /*-- Styling for Specific Classes and IDs--*/
