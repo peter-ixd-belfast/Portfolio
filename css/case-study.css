@@ -120,8 +120,7 @@ h4{
 }
 /* Main container for the collapsible section */
 .collapsible-section {
-  font-family: Arial, sans-serif;
-  max-width: 600px;
+  max-width: 1000px;
   margin: 20px 0;
   border: 1px solid #dddddd;
   border-left: 5px solid #009879; /* Matches your table and list */
