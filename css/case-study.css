@@ -47,6 +47,11 @@ h3{
 h4{
     font-size: 1.777rem;
 }
+.callout{
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem 1rem #f1f1f1;
+}
 #logo{
     display:inline;
     padding: 1rem;
