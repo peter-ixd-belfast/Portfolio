@@ -147,7 +147,7 @@ nav a:hover {
   }
 
   .card {
-    width: 280px;
+    width: 1fr;
     background: #f4f4f4;
     border-radius: 12px;
     overflow: hidden;
