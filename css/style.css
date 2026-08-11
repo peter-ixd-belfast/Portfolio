@@ -22,12 +22,11 @@ main{
 body{
     background: #f7f7f7;
     color:#111111;
-      font-family: "IBM Plex Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-   font-variation-settings:
-    "wdth" 75;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 75;
 }
 
 header{
