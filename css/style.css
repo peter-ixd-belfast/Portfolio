@@ -133,6 +133,60 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+/*--Card Styling--*/
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family:"IBM Plax Sans" sans-serif;
+    background: #f4f4f5;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 280px;
+    background: #f4f4f4;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .card__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card__body {
+    padding: 16px 20px 20px;
+  }
+
+  .card__title {
+    margin: 0 0 8px;
+    font-size: 2.369rem;
+    font-family: "urbanist" sans-serif;
+    font-weight: 600;
+    color: #18181b;
+    line-height: 1.3;
+  }
+
+  .card__text {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.55;
+    color: #52525b;
+  }
 /*--Style the CSS Grid--*/
 .grid-container{
     display: grid;
