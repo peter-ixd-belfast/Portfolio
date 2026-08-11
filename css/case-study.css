@@ -89,6 +89,11 @@ h4{
   text-align: left;
 }
 
+/* Make the first column bold */
+.styled-table td:first-child {
+  font-weight: 600;
+}
+
 /* Zebra striping for alternating rows */
 .styled-table tr:nth-child(even) {
   background-color: #f9f9f9;
