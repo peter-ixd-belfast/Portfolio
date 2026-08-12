@@ -173,6 +173,8 @@ nav a:hover {
 /*--Style the CSS Grid--*/
 .grid-container{
     display: grid;
+    height: auto;
+    max-height: 1vh;
     width: 100%;
     max-width: 1000px;
     grid-template-columns: auto auto auto;
@@ -181,6 +183,7 @@ nav a:hover {
     column-gap: 3rem;
     margin: 0rem;
     padding-top: 4rem;
+    place-items: center;
 }
 
 /*-- Styling for Specific Classes and IDs--*/
