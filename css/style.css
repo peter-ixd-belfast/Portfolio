@@ -185,6 +185,17 @@ nav a:hover {
     padding-top: 4rem;
     place-items: center;
 }
+.grid-container1{
+    display: grid;
+    width: 100%;
+    max-width: 1000px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    margin: 0rem;
+    padding-top: 4rem;
+}
 
 /*-- Styling for Specific Classes and IDs--*/
 .title{
