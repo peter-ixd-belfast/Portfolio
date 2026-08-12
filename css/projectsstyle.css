@@ -151,6 +151,9 @@ nav a:hover {
 }
 
 .card__body {
+     display: flex;
+  flex-direction: column;
+  flex-grow: 1;
     padding: 16px 20px 20px;
 }
 
@@ -168,6 +171,14 @@ nav a:hover {
     font-size: 1rem;
     line-height: 1.55;
     color: #52525b;
+}
+.card > a {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+  text-decoration: none; /* Removes the default blue underline from links */
+  color: inherit; /* Keeps your text colors looking correct */
 }
 
 /*--Style the CSS Grid--*/
