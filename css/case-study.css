@@ -22,7 +22,7 @@ section{
 }
 header{
     text-align: left;
-    padding: 0rem;#
+    padding: 0rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -72,6 +72,9 @@ h4{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal; 
+}
+.callout h3{
+    color: #f7f7f7;
 }
 /*Table Styling*/
 /* Table container styling */
@@ -157,7 +160,7 @@ h4{
 .collapsible-header::after {
   content: '\25BC'; /* Unicode for a downward triangle */
   font-size: 14px;
-  color: ##0B3954;
+  color: #0B3954;
   transition: transform 0.3s ease;
 }
 
