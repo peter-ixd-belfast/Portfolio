@@ -198,7 +198,7 @@ nav a:hover {
 /*-- Styling for Specific Classes and IDs--*/
 .title{
     max-width:1000px;
-    margin:2rem;
+    margin:auto;
     padding: 2rem 0rem;
 }
 
