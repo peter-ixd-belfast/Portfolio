@@ -150,6 +150,7 @@ nav a:hover {
     aspect-ratio: 16/9;
     object-fit: cover;
     display: block;
+    padding: 0.5rem;
 }
 
 .card__body {
