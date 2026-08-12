@@ -181,6 +181,7 @@ nav a:hover {
     column-gap: 3rem;
     margin: auto;
     padding-top: 4rem;
+    place-items: center;
 }
 
 /*-- Styling for Specific Classes and IDs--*/
