@@ -9,9 +9,6 @@
 }
 
 /*--Start Main Styling --*/
-html{
-    scroll-behavior: smooth;
-}
 main{
     grid-area: main;
 }
@@ -31,7 +28,6 @@ body{
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"wdth" 75;
-    scroll-snap-type: y mandatory;
 }
 
 header{
@@ -190,66 +186,6 @@ nav a:hover {
     padding: 2rem 0rem;
 }
 
-/*--Full-viewport sections & scroll indicator--*/
-.viewport-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    max-width: none;
-    min-height: 100vh;
-    margin: 0;
-    padding: 2rem 10%;
-    position: relative;
-    box-sizing: border-box;
-    scroll-snap-align: start;
-}
-
-/*Hero section keeps nav pinned to the top, with the header centred in the remaining space*/
-#hero{
-    justify-content: flex-start;
-}
-#hero header{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-.scroll-indicator{
-    position: absolute;
-    bottom: 2rem;
-    left: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.85rem;
-    font-family: "IBM Plex Sans", sans-serif;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #52525b;
-    animation: scrollBounce 2s infinite;
-}
-.scroll-indicator svg{
-    width: 20px;
-    height: 20px;
-}
-@keyframes scrollBounce{
-    0%, 20%, 50%, 80%, 100%{
-        transform: translateX(-50%) translateY(0);
-    }
-    40%{
-        transform: translateX(-50%) translateY(8px);
-    }
-    60%{
-        transform: translateX(-50%) translateY(4px);
-    }
-}
-
 /*-- Image Styling--*/
 img{
     display: block;
@@ -270,7 +206,6 @@ footer {
     color: #111111;
     margin:auto; 
     padding: 2rem 0 1rem 0;
-    scroll-snap-align: start;
 } 
 
 footer p { 
@@ -349,10 +284,6 @@ footer p {
         margin:auto;
         padding: 1rem 0rem;
     }
-
-    .viewport-section{
-        padding: 2rem 5%;
-    }
 }
 
 /*Phone Screen Size*/
@@ -416,10 +347,6 @@ footer p {
         max-width:1200px;
         margin:auto;
         padding: 1rem 0rem;
-    }
-
-    .viewport-section{
-        padding: 1.5rem 5%;
     }
 
     /*Navigation Styling*/
