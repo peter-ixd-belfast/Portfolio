@@ -131,6 +131,7 @@ nav a:hover {
 /*--Card Styling--*/
 .card {
     width: auto;
+    height: 100%;
     background: #ffffff;
     border-radius: 12px;
     overflow: hidden;
