@@ -16,7 +16,6 @@ html, body{
 }
 
 body{
-    margin: 0 auto;
     background:#f2efe9;
     color:#111111;
     font-family: "IBM Plex Sans", sans-serif;
@@ -35,6 +34,9 @@ header{
     padding: 0rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.container{
+    margin: 0 auto;
 }
 /* Ensures images and videos shrink to fit their containers rather than bursting out */
 img, video, svg, canvas {
