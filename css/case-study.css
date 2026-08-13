@@ -322,6 +322,11 @@ h4{
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   cursor: default; /* Normal cursor over the image itself */
 }
+ /*Styling the iframes*/
+    .centre{
+        text-align: center;
+        margin:auto;
+    }
 footer { 
    grid-area:footer;
     width:100%;
