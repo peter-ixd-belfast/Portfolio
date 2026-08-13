@@ -39,7 +39,7 @@ header{
     margin: 0 auto;
 }
 /* Ensures images and videos shrink to fit their containers rather than bursting out */
-img, video, svg, canvas {
+img, video, canvas {
   max-width: 100%;
   height: auto;
 }
