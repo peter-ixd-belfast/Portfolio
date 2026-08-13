@@ -343,3 +343,149 @@ footer p {
     row-gap: 0.75rem;
 }
 
+/* Tablet Screen Style */
+@media only screen and (max-width: 768px) {
+    h1 { font-size: 4.209rem; }
+    h2 { font-size: 2.369rem; }
+    h3 { font-size: 1.777rem; }
+    h4 { font-size: 1.333rem; }
+
+    header {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    section {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    /* Let sections grow with their content instead of forcing exactly 100vh,
+       and stop hard snap-locking so nothing gets clipped */
+    .viewport-section {
+        min-height: 100vh;
+        padding: 3rem 6% 5rem;
+    }
+    body {
+        scroll-snap-type: none;
+    }
+    .viewport-section {
+        scroll-snap-align: none;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        max-height: none;
+        row-gap: 1.5rem;
+        column-gap: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .grid-container1 {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .card__title {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: 1.333rem;
+        padding: 12px 24px;
+    }
+
+    .scroll-indicator {
+        position: static;
+        transform: none;
+        left: auto;
+        margin-top: 2rem;
+        font-size: 1.333rem;
+    }
+    .scroll-indicator svg {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    #me {
+        max-width: 260px;
+        margin: 1rem auto 0;
+    }
+
+    .footergrid {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+}
+
+/* Phone Screen Size */
+@media only screen and (max-width: 480px) {
+    h1 { font-size: 3.157rem; }
+    h2 { font-size: 1.777rem; }
+    h3 { font-size: 1.333rem; }
+    h4 { font-size: 1.15rem; }
+
+    header {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    section {
+        width: 92%;
+        margin: auto;
+    }
+
+    .viewport-section {
+        padding: 2.5rem 5% 4rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        row-gap: 1.25rem;
+        column-gap: 1.25rem;
+        padding-top: 1.5rem;
+    }
+
+    .grid-container1 {
+        grid-template-columns: 1fr;
+        row-gap: 1.25rem;
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+
+    .card__title {
+        font-size: 1.3rem;
+    }
+    .card__text {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .scroll-indicator {
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    }
+    .scroll-indicator svg {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    #logo {
+        max-width: 60px;
+        max-height: 60px;
+        padding: 0.5rem;
+    }
+
+    #me {
+        max-width: 200px;
+    }
+}
+
