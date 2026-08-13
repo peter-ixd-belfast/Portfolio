@@ -196,6 +196,10 @@ nav a:hover {
     padding-top: 4rem;
     place-items: center;
 }
+/* Target just the last item to push it down */
+.grid-container .grid-item:last-child {
+  align-self: end; /* Pushes this specific item to the bottom of the grid row */
+}
 .grid-container1{
     display: grid;
     width: 100%;
