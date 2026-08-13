@@ -194,7 +194,6 @@ nav a:hover {
     row-gap: 2rem;
     column-gap: 3rem;
     margin: auto;
-    padding-top: 4rem;
     place-items: center;
     align-items:stretch;
 }
