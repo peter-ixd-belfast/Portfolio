@@ -253,6 +253,18 @@ nav a:hover {
     align-items: flex-start;
     width: 100%;
     max-width: none;
+    margin: 0;
+    padding: 2rem 10%;
+    position: relative;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+}
+.viewport-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: none;
     min-height: 100vh;
     margin: 0;
     padding: 2rem 10%;
@@ -260,7 +272,6 @@ nav a:hover {
     box-sizing: border-box;
     scroll-snap-align: start;
 }
-
 /*Hero section keeps nav pinned to the top, with the header centred in the remaining space*/
 #hero{
     justify-content: flex-start;
