@@ -84,7 +84,7 @@ a{
 }
 
 a:hover{
-    color: teal;
+    color:#002e31;
     transition: all 0.3s ease-in-out;
 }
 
@@ -124,7 +124,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color: teal;
+    color: #002e31;
     transition: all 0.3s ease-in-out;
 }
 
@@ -173,7 +173,7 @@ nav a:hover {
     margin: 0;
     font-size: 1rem;
     line-height: 1.55;
-    color: #52525b;
+    color: #111111;
 }
 .card > a {
   display: flex;
@@ -246,7 +246,7 @@ nav a:hover {
     font-family: "Urbanist", sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #52525b;
+    color: #111111;
     animation: scrollBounce 2s infinite;
 }
 .scroll-indicator svg{
