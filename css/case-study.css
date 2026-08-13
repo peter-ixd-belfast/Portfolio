@@ -276,7 +276,6 @@ h4{
 .hero{
     margin:auto;
     width: 100%;
-    aspect-ratio:16/9;
     max-height:50vh;
 }
 /* -- Thumbnail Styling -- */
