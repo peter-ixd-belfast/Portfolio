@@ -292,6 +292,16 @@ h4{
 .heroimg{
     padding-bottom: 2rem;
 }
+/* 1. Make the anchor tag wrap like a box, not like text */
+a.image-link {
+  display: inline-block; /* or display: block; depending on your layout */
+}
+
+/* 2. Remove the text-spacing behavior from the image */
+a.image-link img {
+  display: block;
+  max-width: 100%; /* Ensures the image doesn't overflow the link */
+}
 /* -- Thumbnail Styling -- */
 .thumbnail-image {
   border-radius: 12px;
