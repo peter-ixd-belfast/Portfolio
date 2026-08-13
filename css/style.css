@@ -280,6 +280,7 @@ nav a:hover {
     left: 50%;*/
     display: flex;
     flex-direction: column;
+    justify-items: center;
     align-items: center;
     gap: 0.4rem;
     font-size: 1.777rem;
