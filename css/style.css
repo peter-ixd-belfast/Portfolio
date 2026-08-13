@@ -147,6 +147,7 @@ nav a:hover {
 .card__image {
     width: 100%;
     height: auto;
+    aspect-ratio: 1/1;
     object-fit: cover;
     display: block;
 }
@@ -320,9 +321,7 @@ img{
 footer { 
     grid-area:footer;
     width:100%;
-    border-style: solid;
-    border-top:16px, solid, #002e31;
-    border-width: 24px;
+    border-top: 0.25rem, solid, #002e31;
     text-align: center; 
     font-size: 1rem; 
     color: #111111;
