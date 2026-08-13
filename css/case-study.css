@@ -180,6 +180,7 @@ h4{
   width: 100%;
   max-width: 1000px;
   border-collapse: collapse;
+  border-radius:12px;
   margin: 20px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
