@@ -224,6 +224,7 @@ h4{
 .collapsible-section {
   max-width: 1000px;
   margin: 20px 0;
+  background-color: #f9f9f9;
   border: 1px solid #dddddd;
   border-left: 5px solid #002e31; /* Matches your table and list */
   border-radius: 4px;
@@ -234,6 +235,7 @@ h4{
 .collapsible-header {
   padding: 15px;
   font-weight: bold;
+  background-color: #f9f9f9;
   cursor: pointer;
   list-style: none; /* Removes the default arrow in modern browsers */
   display: flex;
