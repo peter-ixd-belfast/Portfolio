@@ -189,7 +189,7 @@ nav a:hover {
     max-height: 800px;
     width: 100%;
     max-width: 1000px;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(3 auto-fill minmax(1fr));
     grid-template-rows: auto;
     row-gap: 2rem;
     column-gap: 3rem;
@@ -205,7 +205,7 @@ nav a:hover {
     display: grid;
     width: 100%;
     max-width: 1000px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     row-gap: 2rem;
     column-gap: 3rem;
