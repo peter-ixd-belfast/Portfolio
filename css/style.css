@@ -147,7 +147,7 @@ nav a:hover {
 .card__image {
     width: 100%;
     height: auto;
-    aspect-ratio: 1/1;
+    aspect-ratio: 3/2;
     object-fit: cover;
     display: block;
 }
