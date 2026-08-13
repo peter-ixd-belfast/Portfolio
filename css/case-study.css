@@ -327,6 +327,15 @@ h4{
         text-align: center;
         margin:auto;
     }
+    .list{
+
+    list-style-position: inside;
+}
+.listitem{
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
 footer { 
    grid-area:footer;
     width:100%;
