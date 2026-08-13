@@ -43,6 +43,13 @@ img, video, svg, canvas {
   max-width: 100%;
   height: auto;
 }
+img{
+    display: block;
+    width:80%;
+    max-width: 1200px;
+    padding:0;
+    margin:auto;
+}
 /*--Styling Links--*/
 
 a{
