@@ -304,6 +304,7 @@ a.image-link img {
 }
 /* -- Thumbnail Styling -- */
 .thumbnail-image {
+display: inline-block;
   border-radius: 12px;
   max-height: 50vh;
   margin:auto;
