@@ -321,7 +321,6 @@ img{
 footer { 
     grid-area:footer;
     width:100%;
-    border-top: 0.25rem, solid, #002e31;
     text-align: center; 
     font-size: 1rem; 
     color: #111111;
