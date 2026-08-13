@@ -40,8 +40,16 @@ img, video, svg, canvas {
   max-width: 100%;
   height: auto;
 }
-a{    
-    text-decoration:none;
+/*--Styling Links--*/
+
+a{
+    color: #111111;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0b3954;
+    transition: all 0.3s ease-in-out;
 }
 p{
     padding: 0.5rem 0;
