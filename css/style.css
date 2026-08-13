@@ -186,7 +186,6 @@ nav a:hover {
 .grid-container{
     display: grid;
     height: auto;
-    max-height: 800px;
     width: 100%;
     max-width: 1000px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
