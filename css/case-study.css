@@ -287,6 +287,40 @@ h4{
 .collapsible-content {
   padding: 15px;
 }
+/* -- The Ghost Button -- */
+.home-btn {
+  display: inline-flex; /* Flexbox keeps the icon and text perfectly level */
+  align-items: center; /* Centers them vertically */
+  gap: 8px; /* Adds perfect spacing between the arrow and the text */
+  padding: 10px 20px;
+  color: #009879;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #009879;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+/* Button Hover State */
+.home-btn:hover {
+  background-color: #009879;
+  color: #ffffff; /* The text AND the SVG will both turn white automatically */
+}
+
+/* -- The SVG Icon -- */
+.btn-icon {
+  width: 20px; /* Sizes the arrow appropriately for the 16px font */
+  height: 20px;
+  transition: transform 0.2s ease;
+}
+
+/* Optional: Make the arrow slide left slightly when the button is hovered */
+.home-btn:hover .btn-icon {
+  transform: translateX(-4px);
+}
 #logo{
     display:inline;
     padding: 1rem;
