@@ -31,7 +31,6 @@ body{
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"wdth" 75;
-    scroll-snap-type: y mandatory;
 }
 
 header{
@@ -194,8 +193,8 @@ nav a:hover {
     row-gap: 2rem;
     column-gap: 3rem;
     margin: auto;
-    place-items: center;
     align-items:stretch;
+    justify-items: stretch
 }
 
 /*-- Styling for Specific Classes and IDs--*/
@@ -283,7 +282,6 @@ footer {
     color: #111111;
     margin:auto; 
     padding: 2rem 0 1rem 0;
-    scroll-snap-align: start;
 } 
 
 footer p { 
@@ -299,4 +297,71 @@ footer p {
     grid-template-rows: auto auto auto;
     row-gap: 0.75rem;
 }
+/* Tablet Screen Style */
+@media only screen and (max-width: 768px) {
+    h1 { font-size: 4.209rem; }
+    h2 { font-size: 2.369rem; }
+    h3 { font-size: 1.777rem; }
+    h4 { font-size: 1.333rem; }
 
+    header {
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    section {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        row-gap: 1.5rem;
+        column-gap: 1.5rem;
+    }
+
+    .card__title {
+        font-size: 1.5rem;
+    }
+
+    .footergrid {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+}
+
+/* Phone Screen Size */
+@media only screen and (max-width: 480px) {
+    h1 { font-size: 3.157rem; }
+    h2 { font-size: 1.777rem; }
+    h3 { font-size: 1.333rem; }
+    h4 { font-size: 1.15rem; }
+
+    header {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    section {
+        width: 92%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        row-gap: 1.25rem;
+        column-gap: 1.25rem;
+    }
+
+    .card__title {
+        font-size: 1.3rem;
+    }
+    .card__text {
+        font-size: 0.9rem;
+    }
+
+    #logo {
+        max-width: 60px;
+        max-height: 60px;
+        padding: 0.5rem;
+    }
+}
