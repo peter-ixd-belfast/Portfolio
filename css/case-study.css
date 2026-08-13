@@ -293,13 +293,11 @@ h4{
   align-items: center; /* Centers them vertically */
   gap: 8px; /* Adds perfect spacing between the arrow and the text */
   padding: 10px 20px;
-  color: #009879;
+  color: #002e31;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
   font-size: 16px;
-  border: 2px solid #009879;
-  border-radius: 6px;
   background-color: transparent;
   transition: all 0.2s ease;
 }
