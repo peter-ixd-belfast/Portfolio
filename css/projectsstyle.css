@@ -24,7 +24,7 @@ main{
     "footer";
 }
 body{
-    background: #f7f7f7;
+    background: #f2efe9;
     color:#111111;
     font-family: "IBM Plex Sans", sans-serif;
     font-optical-sizing: auto;
@@ -278,8 +278,6 @@ img{
 footer { 
     grid-area:footer;
     width:100%;
-    background: #f4f4f4;
-    opacity: 85%; 
     text-align: center; 
     font-size: 1rem; 
     color: #111111;
