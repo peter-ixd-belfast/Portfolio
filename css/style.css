@@ -26,6 +26,7 @@ main{
 }
 body{
     background: #f2efe9;
+    margin: 0 auto;
     color:#111111;
     font-family: "IBM Plex Sans", sans-serif;
     font-optical-sizing: auto;
