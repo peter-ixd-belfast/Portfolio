@@ -16,6 +16,7 @@ html, body{
 }
 
 body{
+    margin: 0 auto;
     background:#f2efe9;
     color:#111111;
     font-family: "IBM Plex Sans", sans-serif;
