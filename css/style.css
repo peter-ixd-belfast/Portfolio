@@ -312,13 +312,15 @@ img{
     padding:0;
     margin:auto;
 }
-
+#me{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 /*--Styling the Footer--*/
 footer { 
     grid-area:footer;
     width:100%;
-    background: #f4f4f4;
-    opacity: 85%; 
+    border-top:#002e31;
+    border-width: 8px;
     text-align: center; 
     font-size: 1rem; 
     color: #111111;
