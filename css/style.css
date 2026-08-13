@@ -250,7 +250,6 @@ nav a:hover {
 .viewport-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     width: 100%;
     max-width: none;
