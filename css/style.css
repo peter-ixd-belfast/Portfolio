@@ -275,14 +275,13 @@ nav a:hover {
 }
 
 .scroll-indicator{
-    position: relative;
-    /*bottom: 4rem;
-    left: 50%;*/
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    text-align: center;
     gap: 0.4rem;
     font-size: 1.777rem;
     font-family: "Urbanist", sans-serif;
