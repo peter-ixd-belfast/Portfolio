@@ -206,6 +206,7 @@ h4{
 /* -- Thumbnail Styling -- */
 .thumbnail-image {
   border-radius: 8px;
+  max-height: 25vh;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
