@@ -304,7 +304,7 @@ h4{
 
 /* Button Hover State */
 .home-btn:hover {
-  background-color: #009879;
+  background-color:  #002e31;
   color: #ffffff; /* The text AND the SVG will both turn white automatically */
 }
 
