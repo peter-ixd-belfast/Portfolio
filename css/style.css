@@ -18,7 +18,7 @@ main{
 }
 .container{
     display:grid;
-    margin: 0, auto;
+    margin: 0 auto;
     grid-template-rows: 1fr auto;
     min-height: 100vh;
     grid-template-areas: 
