@@ -313,14 +313,16 @@ img{
     margin:auto;
 }
 #me{
+    border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 /*--Styling the Footer--*/
 footer { 
     grid-area:footer;
     width:100%;
-    border-top:#002e31;
-    border-width: 8px;
+    border-style: solid;
+    border-top:16px, solid, #002e31;
+    border-width: 24px;
     text-align: center; 
     font-size: 1rem; 
     color: #111111;
