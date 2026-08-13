@@ -40,6 +40,9 @@ img, video, svg, canvas {
   max-width: 100%;
   height: auto;
 }
+a{    
+    text-decoration:none;
+}
 p{
     padding: 0.5rem 0;
     line-height: 1.3;
