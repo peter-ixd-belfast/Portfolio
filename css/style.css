@@ -208,7 +208,33 @@ nav a:hover {
     padding-top: 4rem;
     place-items: center;
 }
+/* Button Styling*/
+.button{
+    background-color: #002e31;
+    color: #f7f7f7;
+    padding: 16px 32px;
+    font-family:"Urbanist", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.06);
+    float: bottom;
 
+
+}
+.button:hover {
+    background-color: #1a4346;
+ transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.button:active {
+  background-color: #33585a;
+ 
+
+}
 /*-- Styling for Specific Classes and IDs--*/
 .title{
     max-width:1000px;
