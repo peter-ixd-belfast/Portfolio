@@ -290,6 +290,7 @@ h4{
     max-height:50vh;
 }
 .heroimg{
+    margin:auto;
     padding-bottom: 2rem;
 }
 /* 1. Make the anchor tag wrap like a box, not like text */
