@@ -337,7 +337,7 @@ footer {
     width:100%;
     text-align: center; 
     font-size: 1rem; 
-    border-top: 1px solid #092c2e;
+    border-top: 1px solid rgba(9, 44, 46, 0.3);
     color: #111111;
     margin:auto; 
     padding: 2rem 0 1rem 0;
