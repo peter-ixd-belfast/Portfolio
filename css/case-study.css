@@ -58,7 +58,7 @@ a{
 }
 
 a:hover{
-    color: #0b3954;
+    color: #092c2e;
     transition: all 0.3s ease-in-out;
 }
 p{
@@ -94,8 +94,9 @@ h4{
 }
 .callout{
     width: auto;
-    background:#002e31;
-    color:#f7f7f7;
+    background:#f7f7f7;
+    color: #111111;
+    border: 1px, solid, #092c2e;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.06);
@@ -205,7 +206,7 @@ h4{
 /* Make the first column bold and Add Line to match list*/
 .styled-table td:first-child {
   font-weight: 600;
-  border-left: 5px solid #002e31;
+  border-left: 5px solid #092c2e;
 }
 
 /* Zebra striping for alternating rows */
@@ -228,7 +229,7 @@ h4{
   margin-bottom: 10px;
   padding: 12px 15px;
   border-radius: 12px;
-  border-left: 5px solid #002e31; /* Adds a colored accent line on the left */
+  border-left: 5px solid #092c2e; /* Adds a colored accent line on the left */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 /* Main container for the collapsible section */
@@ -237,7 +238,7 @@ h4{
   margin: 20px 0;
   background-color: #f9f9f9;
   border: 1px solid #dddddd;
-  border-left: 5px solid #002e31; /* Matches your table and list */
+  border-left: 5px solid #092c2e; /* Matches your table and list */
   border-radius: 12px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -269,7 +270,7 @@ h4{
 .collapsible-header::after {
   content: '\25BC'; /* Unicode for a downward triangle */
   font-size: 14px;
-  color: #002e31;
+  color: #092c2e;
   transition: transform 0.3s ease;
 }
 
@@ -294,7 +295,7 @@ h4{
   gap: 8px; /* Adds perfect spacing between the arrow and the text */
   padding: 10px 20px;
   margin-bottom: 1rem;
-  color: #002e31;
+  color: #092c2e;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
@@ -305,7 +306,7 @@ h4{
 
 /* Button Hover State */
 .home-btn:hover {
-  background-color:  #002e31;
+  background-color:  #092c2e;
   color: #ffffff; /* The text AND the SVG will both turn white automatically */
 }
 
@@ -433,7 +434,7 @@ footer p {
 }
 /* Button Styling*/
 .button{
-    background-color: #002e31;
+    background-color: #092c2e;
     color: #f7f7f7;
     padding: 16px 32px;
     font-family:"Urbanist", sans-serif;

@@ -84,7 +84,7 @@ a{
 }
 
 a:hover{
-    color:#002e31;
+    color:#092c2e;
     transition: all 0.3s ease-in-out;
 }
 
@@ -124,7 +124,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color: #002e31;
+    color: #092c2e;
     transition: all 0.3s ease-in-out;
 }
 
