@@ -414,7 +414,19 @@ a.image-link img {
     line-height: 1.5rem;
     font-weight: 600;
 }
+/*--Image Caption Styling--*/
+.grid-figure {
+  margin: 0; /* Resets default browser margins on figures */
+  padding: 0;
+}
 
+.grid-caption {
+  text-align: center; /* Centers the caption under the grid */
+  font-size: 0.9rem;
+  color: #092c2e;
+  margin-top: 0.5rem; /* Adds breathing room between the images and the text */
+  font-style: italic;
+}
 /*--Styling the Footer--*/
 footer { 
     grid-area:footer;
