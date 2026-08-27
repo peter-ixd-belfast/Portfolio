@@ -425,6 +425,7 @@ a.image-link img {
   font-size: 0.9rem;
   color: #092c2e;
   margin-top: 0.5rem; /* Adds breathing room between the images and the text */
+  margin-bottom: 1rem;
   font-style: italic;
 }
 /*--Styling the Footer--*/
