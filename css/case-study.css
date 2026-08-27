@@ -184,7 +184,7 @@ h4{
     margin:auto;
     padding: 2rem 0;
 }
-.grid-container-wide-images{
+.grid-container-3-wide-images{
   display: grid;
   width: 80%;
   max-width: 1200px;
@@ -195,11 +195,28 @@ h4{
   margin: auto;
   padding: 2rem 0;
 }
-.grid-container-wide-images .thumbnail-image {
+.grid-container-3-wide-images .thumbnail-image {
   width: 100%;
   height: auto;
   display: block; /* Removes the tiny gap below inline images */
   object-fit: cover; /* Optional: keeps image proportions neat */
+}
+.grid-container-2-wide-images{
+  display: grid;
+  width: 80%;
+  max-width: 1200px;
+  /* Change 'auto' to '1fr' to divide the container width equally */
+  grid-template-columns: 1fr 1fr; 
+  /* Adding a gap prevents the images from touching each other */
+  gap: 20px; 
+  margin: auto;
+  padding: 2rem 0;
+}
+.grid-container-2-wide-images .thumbnail-image {
+  width: 100%;
+  height: auto;
+  display: block; /* Removes the tiny gap below inline images /*
+  object-fit: cover; Optional: keeps image proportions neat */
 }
 .grid-item11{
     background-color: #f4f4f4;
