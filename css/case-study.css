@@ -412,7 +412,7 @@ a.image-link img {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(250, 248, 245, 0.85); /* Light semi-transparent background */
+  background-color: rgba(250, 248, 245, 1); /* Light opaque background */
   z-index: 9999; /* Ensures it sits on top of everything else */
   text-decoration: none;
   cursor: zoom-out; /* Changes the mouse pointer to indicate clicking will close it */
