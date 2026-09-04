@@ -412,7 +412,7 @@ a.image-link img {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(250, 248, 245, 1); /* Light opaque background */
+  background-color: rgba(0, 0, 9, 0.85); /* Light opaque background */
   z-index: 9999; /* Ensures it sits on top of everything else */
   text-decoration: none;
   cursor: zoom-out; /* Changes the mouse pointer to indicate clicking will close it */
@@ -431,6 +431,7 @@ a.image-link img {
   max-width: 90vw; /* Prevents it from touching the left/right edges */
   max-height: 90vh; /* Prevents it from touching the top/bottom edges */
   object-fit: contain; /* Keeps the original image proportions perfectly */
+ background-color: #f7f7f7;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   cursor: default; /* Normal cursor over the image itself */
